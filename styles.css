@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #c0c0f3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-links {
+    list-style: none;
+}
+
+.home-links a {
+    color: #12125c
+}
+
+.home-links a:hover {
+    color: white;
+}
+
+home-links a:active {
+    color: white;
+}
+
+footer, .home-links {
+    padding: 10px;
+}
+
+
+.home-links {
+    background-color: rgb(158, 158, 255);
+}
+
+footer {
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #7979f3;
+}
+
+
+/* RECIPES */
+.back-button {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+header {
+   background-color: rgb(210, 214, 246);
+   padding: 10px;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+}
+
+section h2 {
+    background-color: #12125c;
+    padding: 10px;
+    color: white;
+}
